@@ -1,0 +1,145 @@
+h1,h2,h3,h4,h5,h6{
+    font-family:'DM sans',sans-serif;
+    color:rgb(180, 174, 174);
+}
+p{
+    font-family:'DM sans',sans-serif;
+}
+a{
+    text-decoration: none;
+    color:rgb(197, 192, 192);
+}
+.dashlogo{
+    margin-top:-15px;
+    margin-left:50px;
+}
+.row{
+    display: flex;
+    margin-top:20px;
+    margin-left:40px;
+    align-items: center;
+    gap:15px;
+}
+a:hover{
+    color:white;
+}
+#cookies:hover {
+    text-decoration: underline;
+    color:white;
+}
+.head1{
+    display: flex;
+    margin-top:30px;
+    margin-left:40px;
+    align-items: center;
+    gap:20px;
+}
+a.btn1{
+    padding:10px 15px;
+    border-radius:25px;
+    background-color:rgb(19, 18, 18);
+    color:white;
+    cursor:not-allowed;
+}
+.head2{
+    display:flex;
+    align-items:center;
+    gap:30px;
+    margin-left:550px;
+    margin-top:-20px;
+    cursor:default;
+}
+a#login{
+    padding:10px 25px;
+    border-radius: 25px;
+    color:black;
+    background-color: white;
+    cursor:default;
+}
+a#login:hover{
+    background-color: rgb(189, 183, 183);
+}
+.foot1{
+    color:white;
+    margin-left:30px;
+    margin-top:6px;
+    font-size: 17px;
+}
+a#signupfree{
+    padding:10px 35px;
+    border-radius: 25px;
+    color:black;
+    background-color: white;
+    cursor:default;
+}
+a#signupfree:hover{
+    padding:13px 38px;
+}
+.foot2{
+    margin-top:-27px;
+    margin-left:1170px;
+}
+.content{
+    display:flex;
+    align-items:center;
+    gap:900px;
+    margin-left:30px;
+    margin-top:20px;
+}
+#mainhead1:hover{
+    text-decoration: underline;
+}
+#mainhead2:hover{
+    text-decoration: underline;
+}
+.content1{
+    display:flex;
+    color:white;
+    gap: 40px;
+}
+.boxstyle{
+    padding: 10px;
+    text-align: center;
+    margin-left:30px;
+    margin-top:20px;
+    line-height: 130%;
+    color:rgb(250, 250, 250);
+    font-weight: bold;
+    background-color: rgb(26, 24, 24);
+    border-radius: 5%;
+}
+.content1 :hover{
+    background-color: rgb(27, 27, 27);
+}
+.imgstyle{
+    border-radius:5%;
+}
+.container{
+    display: grid;
+    grid-template-columns:repeat(5,1fr);
+    grid-template-rows:70px auto 515px 70px ;
+}
+
+header{
+    background-color: rgb(24, 23, 23);
+    grid-column-start:span 4;
+    grid-row-start:span 1;
+    align-items: center;
+}
+aside{
+    background-color: black;
+    grid-column-start: span 1;
+    grid-row-start: span 3;
+    color: white;
+}
+main{
+    background-color: rgb(29, 28, 28);
+    grid-column-start: span 4;
+    grid-row-start: span 2;
+
+}
+footer{
+    background-image:linear-gradient(to right,rgb(224, 106, 149), rgb(62, 47, 90),lightblue);
+    grid-column-start: span 5;
+    grid-row-start:span 2;
+}
